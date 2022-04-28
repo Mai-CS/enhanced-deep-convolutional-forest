@@ -4,6 +4,23 @@ This is the official implementation of Deep Convolutional Forest (DCF)
 Shaaban, M.A., Hassan, Y.F. &amp; Guirguis, S.K. Deep convolutional forest: a dynamic deep ensemble approach for spam detection in text. Complex Intell. Syst. (2022). https://doi.org/10.1007/s40747-022-00741-6
 
 
+## Notes
+This project was prepared to run on Colab
+
+To use the code on Colab:
+1. Uncomment the following in cell #5 to download GloVe embeddings
+<pre><code>
+!wget http://nlp.stanford.edu/data/glove.6B.zip
+!unzip -q glove.6B.zip
+</code></pre>
+
+2. Put your project files in the following path:
+<pre><code>
+/content/drive/My Drive/Shared DCF/
+</code></pre>
+
+3. Changing the path requires you to change its uses in cell #2, #6, #17
+
 ## Cite
 <pre><code>
 @article{Shaaban2022,
